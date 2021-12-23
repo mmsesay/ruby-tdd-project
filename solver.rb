@@ -12,6 +12,8 @@ class Solver
   def reverse(arg)
     if arg.is_a? String
       arg.reverse
+    else
+      'Please enter a string'
     end
   end
 
