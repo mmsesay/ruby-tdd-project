@@ -16,5 +16,4 @@ class Solver
       'Please enter a string'
     end
   end
-
 end
