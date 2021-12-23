@@ -3,7 +3,7 @@ require_relative '../solver'
 describe Solver do
   context 'When testing the solver class' do
     before(:each) do
-      @solver = Solver.new()
+      @solver = Solver.new
     end
 
     it 'Check if the factorial arg is zero' do
@@ -36,6 +36,10 @@ describe Solver do
 
     it 'Check if the value is buzz' do
       expect(@solver.fizzbuzz(5)).to eq 'buzz'
+    end
+
+    it 'Check if the value is not divisible' do
+      expect(@solver.fizzbuzz(7)).to eq '7'
     end
   end
 end
