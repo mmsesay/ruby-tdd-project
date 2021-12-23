@@ -9,7 +9,7 @@
 ## How to run the program locally
 - Clone the project: ```https://github.com/mmsesay/ruby-tdd-project.git```
 - Skip if you already have ruby installed otherwise download [ruby](https://www.ruby-lang.org/en/documentation/installation/) install it on your system
-- Run `ruby main.rb` in your terminal and follow the process
+- Run `ruby solver.rb` in your terminal and follow the process
 
 ## Author
 
