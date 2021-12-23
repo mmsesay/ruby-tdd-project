@@ -16,7 +16,16 @@ class Solver
       'Please enter a string'
     end
   end
-end
 
-s = Solver.new
-p s.reverse_string('man')
+  def fizzbuzz(arg)
+    if arg.modulo(3).zero? && arg.modulo(5).zero?
+      'fizzbuzz'
+    elsif arg.modulo(3).zero?
+      'fizz'
+    elsif arg.modulo(5).zero?
+      'buzz'
+    else
+      arg.to_s
+    end
+  end
+end
