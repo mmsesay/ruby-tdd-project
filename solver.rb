@@ -9,7 +9,7 @@ class Solver
     end
   end
 
-  def reverse_string(arg)
+  def reverse(arg)
     if arg.is_a? String
       arg.reverse
     else
