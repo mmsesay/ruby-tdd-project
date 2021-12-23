@@ -22,5 +22,8 @@ describe Solver do
       expect(@solver.reverse('value')).to eq 'eulav'
     end
 
+    it 'Check if the value is not reverse' do
+      expect(@solver.reverse(3)).to eq 'Please enter a string'
+    end
   end
 end
