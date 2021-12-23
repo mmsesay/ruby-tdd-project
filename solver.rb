@@ -8,4 +8,6 @@ class Solver
       'Please enter a positive number'
     end
   end
+
+
 end

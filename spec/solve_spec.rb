@@ -17,5 +17,10 @@ describe Solver do
     it 'Check if the factorial arg is negative' do
       expect(@solver.factorial(-3)).to eq 'Please enter a positive number'
     end
+
+    it 'Check if the value is reverse' do
+      expect(@solver.reverse('value')).to eq 'eulav'
+    end
+
   end
 end
