@@ -9,5 +9,10 @@ class Solver
     end
   end
 
+  def reverse(arg)
+    if arg.is_a? String
+      arg.reverse
+    end
+  end
 
 end
